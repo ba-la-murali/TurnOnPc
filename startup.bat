@@ -8,7 +8,7 @@ for /f "delims=" %%i in ('powershell -Command "Invoke-RestMethod -Uri %GITHUB_LI
 REM Check if the response is 'True'
 if "%RESPONSE%"=="True" (
     REM Wake up the display
-    powershell -ExecutionPolicy Bypass -File "C:\Users\Admin\Downloads\WakeUp.ps1" 
+    powershell -ExecutionPolicy Bypass -File "C:\Users\Admin\Downloads\CARBAT.ps1" 
 
     REM Optional: Wait for the system to fully wake up
     timeout /t 5
