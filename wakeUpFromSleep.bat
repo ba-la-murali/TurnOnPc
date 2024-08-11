@@ -1,7 +1,7 @@
 @echo off
 
 :: Define the GitHub raw URL
-set "url=https://raw.githubusercontent.com/username/repository/branch/filename.txt"
+set "https://raw.githubusercontent.com/ba-la-murali/TurnOnPc/main/status.txt"
 
 :: Fetch the content from the URL
 for /f "delims=" %%a in ('curl -s %url%') do set "rawgithublink=%%a"
